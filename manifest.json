@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "VLR Playoff Probability",
+  "version": "2.0.0",
+  "description": "Embeds a Monte Carlo playoff-qualification panel directly into VLR.gg group stage pages.",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.vlr.gg/event/*",
+        "https://vlr.gg/event/*"
+      ],
+      "js": ["content.js"],
+      "css": ["content.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}
