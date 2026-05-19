@@ -19,8 +19,10 @@ Open any VCT Challengers group stage and the extension drops a panel above the b
   5. Overall round differential
 - **Per-group advancement override** if the page detection is wrong, just type the right number into the inline input
 
-# Image Example
+# Image Example(s)
 - <img width="635" height="730" alt="image" src="https://github.com/user-attachments/assets/a3d91606-e146-4c49-bd63-1fa6c032767d" />
+- <img width="640" height="401" alt="image" src="https://github.com/user-attachments/assets/f6c707f4-6fb3-4907-862c-4d15f0ba08ef" />
+
 
 ---
 
