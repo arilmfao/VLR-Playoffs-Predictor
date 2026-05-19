@@ -17,7 +17,7 @@ Open any VCT Challengers group stage and the extension drops a panel above the b
   3. Head-to-head round differential
   4. Overall map differential
   5. Overall round differential
-- **Per-group advancement override** — if the page detection is wrong, just type the right number into the inline input
+- **Per-group advancement override** if the page detection is wrong, just type the right number into the inline input
 
 ---
 
@@ -27,7 +27,7 @@ Open any VCT Challengers group stage and the extension drops a panel above the b
 2. Visit `chrome://extensions` in Chrome
 3. Toggle **Developer mode** on (top-right)
 4. Click **Load unpacked** and pick this folder
-5. Open any [VCT Challengers group stage page](https://www.vlr.gg/event/2925/challengers-2026-emea-stage-2/group-stage) — the panel appears automatically
+5. Open any [VCT group stage page](https://www.vlr.gg/event/2925/challengers-2026-emea-stage-2/group-stage) & the panel appears automatically
 
 ---
 
