@@ -1,4 +1,3 @@
-/* Embedded panel — styled to sit naturally inside vlr.gg group-stage pages. */
 
 .vpp-root {
   margin-bottom: 30px;
@@ -6,7 +5,6 @@
   overflow: hidden;
 }
 
-/* --- Header bar with title, tabs, collapse --- */
 .vpp-head {
   display: flex;
   align-items: stretch;
@@ -64,10 +62,8 @@
 
 .vpp-root.vpp-collapsed .vpp-body { display: none; }
 
-/* --- Body --- */
 .vpp-body { padding: 14px 16px; }
 
-/* --- Controls row --- */
 .vpp-controls {
   display: flex;
   flex-wrap: wrap;
@@ -124,11 +120,9 @@
   font-variant-numeric: tabular-nums;
 }
 
-/* --- Panes --- */
 .vpp-pane { display: none; }
 .vpp-pane.vpp-pane-active { display: block; }
 
-/* --- Standings --- */
 .vpp-group {
   margin-bottom: 20px;
 }
