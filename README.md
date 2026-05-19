@@ -48,3 +48,5 @@ Each remaining match is enumerated four ways: team A wins 2-0, A wins 2-1, B win
 - The panel re-runs the simulation when you change the advancement count for any group
 - If a group has more than 10 remaining matches, the engine switches from exact enumeration to ~100k Monte Carlo samples — accurate to within a fraction of a percent
 - Probabilities update only when you click **Refresh** or change an input (it doesn't poll vlr.gg)
+- <img width="635" height="730" alt="image" src="https://github.com/user-attachments/assets/a3d91606-e146-4c49-bd63-1fa6c032767d" />
+
