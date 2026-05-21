@@ -46,13 +46,6 @@ const INT_RE = /^\d+$/;
 const RD_PER_MAP = 7;
 const MAX_ENUM_MATCHES = 10;
 
-// Estimated round differential for a single series. We only ever scrape map
-// scores per match (and an aggregate round diff per team), never per-map round
-// counts — so a series' contribution to the head-to-head round-diff tiebreaker
-// is modeled, not measured: a 2-0 sweep clears ~7 rounds a map, while a 2-1
-// nets far less because the dropped map hands rounds back. Played and simulated
-// matches MUST share this model; if they disagree, the H2H round-diff tiebreaker
-// fails to wash out in a cyclic 3-way tie and silently eliminates a level team.
 function seriesRD(wMaps, lMaps) {
   return lMaps === 0 ? wMaps * RD_PER_MAP : 5;
 }
