@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "VLR Playoff Probability",
+  "version": "2.0.0",
+  "description": "Embeds a VLR Group Stage probability table.",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "vlr-playoff-probability@addon.local",
+      "strict_min_version": "109.0"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.vlr.gg/event/*",
+        "https://vlr.gg/event/*"
+      ],
+      "js": ["content.js"],
+      "css": ["content.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}
