@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "VLR Playoff Probability",
   "version": "2.0.0",
-  "description": "Embeds a Monte Carlo playoff-qualification panel directly into VLR.gg group stage pages.",
+  "description": "Embeds a VLR Group Stage probability table.",
   "content_scripts": [
     {
       "matches": [
